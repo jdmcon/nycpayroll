@@ -14,10 +14,6 @@
 			],
 			"sinks": [
 				{
-					"dataset": {
-						"referenceName": "AzureSynapseAnalyticsTable1",
-						"type": "DatasetReference"
-					},
 					"name": "sinknyctitle"
 				}
 			],
@@ -32,16 +28,8 @@
 				"     ignoreNoFilesFound: false) ~> sourcenyctitle",
 				"sourcenyctitle sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     deletable:false,",
-				"     insertable:true,",
-				"     updateable:false,",
-				"     upsertable:false,",
-				"     format: 'table',",
-				"     staged: true,",
-				"     allowCopyCommand: true,",
 				"     skipDuplicateMapInputs: true,",
-				"     skipDuplicateMapOutputs: true,",
-				"     errorHandlingOption: 'stopOnFirstError') ~> sinknyctitle"
+				"     skipDuplicateMapOutputs: true) ~> sinknyctitle"
 			]
 		}
 	}
