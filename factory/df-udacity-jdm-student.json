@@ -1,0 +1,9 @@
+{
+	"name": "df-udacity-jdm-student",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2e49bd3c-4702-48d3-a04f-aa7c0a57fe93",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
