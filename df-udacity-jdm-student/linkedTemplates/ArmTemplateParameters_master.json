@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-udacity-jdm-student"
+		},
+		"adls_linked_service_accountKey": {
+			"value": ""
+		},
+		"sqldb_linked_service_connectionString": {
+			"value": ""
+		},
+		"synapse_linked_service_connectionString": {
+			"value": ""
+		},
+		"adls_linked_service_properties_typeProperties_url": {
+			"value": "https://adlsnycpayrolljd.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
