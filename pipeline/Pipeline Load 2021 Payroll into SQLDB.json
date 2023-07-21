@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "sourcenycpayroll2021",
+						"referenceName": "nyrcpayroll2021_to_sqldb",
 						"type": "DataFlowReference"
 					},
 					"compute": {

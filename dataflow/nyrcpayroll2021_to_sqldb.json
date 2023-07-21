@@ -1,5 +1,5 @@
 {
-	"name": "sourcenycpayroll2021",
+	"name": "nyrcpayroll2021_to_sqldb",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
